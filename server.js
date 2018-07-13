@@ -27,6 +27,7 @@ ShoppingList.create('tomatoes', 3);
 ShoppingList.create('peppers', 4);
 
 Recipes.create('chocolate milk', ['cocoa', 'milk', 'sugar']);
+Recipes.create('bread', ['flour', 'water', 'milk', 'salt']);
 
 // when the root of this route is called with GET, return
 // all current ShoppingList items by calling `ShoppingList.get()`
